@@ -29,7 +29,7 @@ Step 2: Improve app
     4. Real taxed return
     5. Capital gains tax
     6. Indices over time
-6. Move project to git
+6. Move project to git ✅ 
 7. Add links to other pages to each page ✅ 
  
 Step 3: Add graphs of investment over time:

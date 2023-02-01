@@ -16,7 +16,7 @@
     <p> Interest is the rate at which your stock accumulates over time. You can buy bonds, which often have a set interest rate (fixed-rate bonds),
     or floating rate bonds, which have interest rates that vary. Stocks do not have set interest rates, but generally increase over time.
     The value in stocks lies in their dividends: publicly owned stocks are required to pay out a certain amount of their profits in dividends to shareholders. </p>
-    <p> For this fisrt set of calculations, you can see the gains from investing over time. This calculation is simplified,
+    <p> For this first set of calculations, you can see the gains from investing over time. This calculation is simplified,
     assuming a constant interest rate over time. You can play around with the calculator below to see how different interest rates, time horizons,
     and initial investment amounts affect your end returns. </p>
     <form method="post" action="{{ url_for('simple_interest') }}" id="simple_interest">
@@ -59,8 +59,11 @@
                          scales: {
                              yAxes: [{
                                  ticks: {
-                                     callback: function (value, index, ticks) {
-                                         return '$' + value;
+                                     callback: function (value) {
+                                          value = value.toString();
+                                          value = value.split(/(?=(?:...)*$)/);
+                                          value = value.join(',');
+                                          return '$' + value;
 
                                      }
                                  }
@@ -72,8 +75,7 @@
                                  }
                              }]
                          }
-
-                     });
+                     }});
              </script>  
     {% endif %}
     {% if calculation_success1 == False %}

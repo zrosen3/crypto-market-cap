@@ -1,52 +1,7 @@
+Bitcoin market app steps
 
-Python investment app steps
-
- fix indices over time function
-
-Step 0: 
-1. Find historical stock data to use for historical calculations ✅ 
-2. Load in and process stock data ✅ 
-3. Find current capital gains taxes ✅ 
-
-
-Step 1: Create calculator functions for investments over time
-1. Simple return ✅ 
-2. Taxed return✅ 
-3. Real return✅ 
-4. Real taxed return ✅ 
-5. Capital gains tax ✅ 
-6. Indices over time ✅ 
-
-Step 2: Improve app
-1. Move apps to different pages  ✅ 
-2. Change input types to numeric ✅ 
-3. Fix bug in historical indices function to allow sell date in 2022 ✅ 
-4. Improve exception handling
-5. Double check functions output
-    1. Simple return
-    2. Taxed return
-    3. Real return
-    4. Real taxed return
-    5. Capital gains tax
-    6. Indices over time
-6. Move project to git ✅ 
-7. Add links to other pages to each page ✅ 
- 
-Step 3: Add graphs of investment over time:
-1. Simple return ✅   
-2. Taxed return
-3. Real return
-4. Real taxed return 
-5. Indices over time 
-
-Step 4: Add default values for graphs and text output so something 
-automatically displayed
-Step 5: Finalize website design
-Step 6: Release publicly
-
-Step 6: Continue to improve!	
-Ideas
--Try to pull own data and replicate yale database
--Add cooler visualizations of investments over time
+1) Set up directory 
+2) Get initial version working
+3) Publish to web
 
 
